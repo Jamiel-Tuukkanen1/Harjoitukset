@@ -1,0 +1,159 @@
+header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+.background {
+    height: 1000px;
+    width: auto;
+    background-color: rgb(39, 39, 39);
+}
+.mainbox {
+    height: 750px;
+    width: 1700px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: rgb(100, 100, 100);
+}
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(57, 57, 57);
+    margin-left: 10px;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    border-style: solid;
+    transform: translate(0,10px);
+}
+.box1 {
+    height: 150px;
+    width: 485px;
+    background-color: rgb(0, 0, 0);
+    transform: translate(13px,20px);
+    border-style: double;
+    border-width: 15px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+}
+p {
+    font-size: 20px;
+    transform: translate(10px);
+    color: white;
+}
+.box2 {
+    height: 470px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 15px;
+    transform: translate(600px, -1100px);
+    margin-top: 20px;
+}
+.box3 {
+    height: 380px;
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 15px;
+    transform: translate(950px,-580px);
+}
+.teksti1 {
+    font-size: 18px;
+    color: white;
+}
+.box4 {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    transform: translate(1200px,-1600px);
+    border-radius: 100px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+h2 {
+    color: white;
+    margin-top: 10px;
+}
+.otsikko1 {
+    text-align: center;
+    transform: translate(-5px);
+}
+.tekstit {
+    font-size: 20px;
+    color: white;
+}
+img {
+    height: 500px;
+    width: 500px;
+}
+.osta {
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: white;
+    margin-left: 10px;
+    transform: scale(1,1);
+    transition: width 1s;
+}
+.osta:hover {
+    background-color: rgb(51, 51, 51);
+    transform: scale(1.05,1.05);
+    width: 150px;
+    cursor: pointer;
+}
+.osta:active {
+    transform: scale(1,1);
+    background-color: black;
+}
+.teksti_osta {
+    transform: translate(-2px, 15px);
+}
+.back1 {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto
+}
+.back {
+    text-align: center;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    width: 100px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+.back:hover {
+    background-color: rgb(53, 53, 53);
+    transform: scale(1.05,1.05);
+}
+.back:active {
+    background-color: black;
+    transform: scale(1,1);
+}
+.back a {
+    text-decoration: none;
+}
+.back p {
+    transform: translate(-2px,-17px);
+}
