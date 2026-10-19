@@ -1,7 +1,5 @@
 print("--- KULUSEURANTA ---")
-lista=[1,5,3,9,6,2,1,5,0]
-lista.sort
-print(lista)
+lista=[]
 summa=0
 while True:
     print("1. Lisaa kulu")
@@ -21,4 +19,4 @@ while True:
     if luku==3:
         print("Kokonaiskulu",summa)
         print("Pienin kulu", )
-        print("Suurin kulu",)
+        print("Suurin kulu", )
