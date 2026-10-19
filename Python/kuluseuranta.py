@@ -20,5 +20,5 @@ while True:
             print(i)
     if luku==3:
         print("Kokonaiskulu",summa)
-        print("Pienin kulu",)
+        print("Pienin kulu", )
         print("Suurin kulu",)
