@@ -1,0 +1,42 @@
+header {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#herotext {
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
