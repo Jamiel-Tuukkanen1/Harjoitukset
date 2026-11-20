@@ -161,3 +161,10 @@ img {
 .back p {
     transform: translate(-2px,-17px);
 }
+input {
+    margin-left: 10px;
+}
+.amount {
+    color: white;
+    margin-top: -15px;
+}
